@@ -11,7 +11,7 @@ email: info@synerminds.com
 description: >
   This is the place where we share with the community our lessons learned
   while working on products or prototypes.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://synerminds.com" # the base hostname & protocol for your site
 twitter_username:
 github_username:  synerminds
