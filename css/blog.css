@@ -164,3 +164,19 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.post-list {
+  margin-left: 40px;
+}
+
+#push, #footer {
+  height: 200px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: 100%;
+  /*margin-bottom should have same values as #push, #footer height*/
+  height: auto !important;
+  margin: 0 auto -200px;
+}
