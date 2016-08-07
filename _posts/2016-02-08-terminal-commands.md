@@ -1,5 +1,10 @@
-# Importance of using the terminal?
-
+---
+layout: post
+title:  Importance of using the terminal?
+meta:   August 02, 2016
+author: Camilo Martinez
+categories: os, terminal
+---
 Under multiple platforms the Operating System has the GUIs (graphical user interfaces), where you can as a user point, click and drag on multiple components of the OS, which makes the user experience extremely easy and friendly. 
 
 The traditional Unix environment are based into CLI (command line interface), where you as a user have the necessity to type commands to tell the computer what to do. Believe it or not, that is faster and more powerful to handle the Operating System.
