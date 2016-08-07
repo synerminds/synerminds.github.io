@@ -3,7 +3,6 @@ layout: post
 title:  Smart Video Robot Car Kit for Raspberry Pi
 meta:   August 01, 2016
 author: Juan Pablo Soto
-categories: iot
 ---
 This is a short blog about the troubleshooting process we had to face when
 assembling and configuring the Car kit with the Raspberry Pi. We hope it can be useful for everyone, specially for those who are doing it alone and with a limited knowledge of how
