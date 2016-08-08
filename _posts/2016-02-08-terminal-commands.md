@@ -4,11 +4,12 @@ title:  Importance of using the terminal?
 meta:   August 02, 2016
 author: Camilo Martinez
 ---
-Under multiple platforms the Operating System has the GUIs (graphical user interfaces), where you can as a user point, click and drag on multiple components of the OS, which makes the user experience extremely easy and friendly. 
 
-The traditional Unix environment are based into CLI (command line interface), where you as a user have the necessity to type commands to tell the computer what to do. Believe it or not, that is faster and more powerful to handle the Operating System.
+Nowadays, most Operating Systems (OS) include a Graphical User Interface (GUI), where users can point, click and drag on multiple components of the GUI, which makes it much easier for users to interact with the OS."
 
-So, with the review made before, please join us reading this post which has the purpose to give you an introduction to use the fantastic world of CLI (command line interface).
+Traditional Unix environments are based into CLI (command line interface), where you as a user have the necessity to type commands to tell the computer what to do. Believe it or not, that is faster and more powerful to handle the Operating System.
+
+Having said that, the purpose of this post is to give you an introduction to the CLI (command line interface).
 
 ## Basic Concepts related to the CLI:
 
@@ -16,6 +17,7 @@ So, with the review made before, please join us reading this post which has the 
 - **Command Line:** This is the actual line in a console where you type your command.
 - **Prompt:** This is the beginning of the command line. It usually provides some contextual information like who you are, where you are and other useful info. After the prompt is where you will be typing commands.
 - **Terminal:** This is the actual interface to the console. The program we use to interact with the console is actually a **“terminal emulator”**, providing us the experience of typing into an old school terminal from the convenience of our modern graphical operating system.
+- **Command:** A command is a specific order from a user to the computer's operating systems or to an application to perform an action. Operating systems that do not have a graphical user interface (GUI) offer a simple command line interface in which you type the command on a designated line in a display panel. In operating systems with graphical user interface, you implicitly enter commands by selecting objects, word selections or simply clicking with the mouse button on them.
 
 ## How to start/access the terminal:
 ### Linux:
@@ -43,7 +45,7 @@ So, with the review made before, please join us reading this post which has the 
 
 **ls**
 
-The command “ls” stands for (List Directory Contents), List the contents of the folder, be it file or folder, from which it runs.If you run ls without any additional parameters, the program will list the contents of the current directory in short form.
+The command **“ls”** stands for (List Directory Contents), List the contents of the folder, be it file or folder, from which it runs. If you run **"ls"** without any additional parameters, the program will list the contents of the current directory in short form.
 
 - **ls**
 
@@ -74,7 +76,7 @@ syner@synerpc:~$
 - Displays hidden files: **ls -a**
 
 ```sh
-syner@camilopc:~$ ls -a
+syner@synerpc:~$ ls -a
 .              Downloads         Public
 ..             examples.desktop  .sudo_as_admin_successful
 .bash_history  .gconf            Templates
@@ -84,12 +86,12 @@ syner@camilopc:~$ ls -a
 .config        Music             .xsession-errors.old
 Desktop        Pictures
 Documents      .profile
-syner@camilopc:~$ 
+syner@synerpc:~$ 
 ```	
 
 **pwd**
 
-In the console, you are always working in a directory, or folder, on your computer. We call this your working directory. You can see where you are using pwd (short for print working directory)
+In the console, you are always working in a directory, or folder, on your computer. We call this your working directory. You can see where you are using **"pwd"** (short for print working directory)
 
 ```sh
 syner@synerpc:~$ pwd
@@ -124,18 +126,19 @@ syner@synerpc:~/Desktop/Test$
 
 **mkdir**
 
-The “mkdir” (Make directory) command create a new directory with name path. 
+The **“mkdir”** (Make directory) command create a new directory with name path. 
 
 ```sh
-camilo@camilopc:~/Desktop$ ls
+syner@synerpc:~/Desktop$ ls
 Test
-camilo@camilopc:~/Desktop$ mkdir CLIROCKS
-camilo@camilopc:~/Desktop$ ls
+syner@synerpc:~/Desktop$ mkdir CLIROCKS
+syner@synerpc:~/Desktop$ ls
 CLIROCKS  Test
-camilo@camilopc:~/Desktop$ 
+syner@synerpc:~/Desktop$ 
 ```
 
-**mv**		
+**mv**	
+
 The **“mv”** command moves a file from one location to another location.
 
 ```sh
@@ -150,7 +153,7 @@ MovingFolder
 syner@synerpc:~/Desktop/Test$ 
 ```
 
-**Note:** You can also add the **"-i"** option after the **mv**, and basically if the file you are moving exist, you will be prompted before it is overwritten.
+**Note:** You can also add the **"-i"** option after the "**mv**", and basically if the file you are moving exists, you will be prompted before it is overwritten.
 
 **cp**
 
@@ -176,7 +179,7 @@ syner@synerpc:~/Desktop$
 
 **chmod**
 
-The “chmod” command stands for (change file mode bits). chmod changes the file mode (permission) of each given file, folder, script, etc.. according to mode asked for.
+The **“chmod”** command stands for (change file mode bits). chmod changes the file mode (permission) of each given file, folder, script, etc.. according to mode asked for.
 
 There exist 3 types of permission on a file (folder or anything but to keep things simple we will be using file).
 
@@ -211,7 +214,7 @@ syner@synerpc:~# chmod 711 syner.py
 
 **history**
 
-You can use the history command to show a list of all the recently used commands, or the up/down arrows to loop through them.
+You can use the **"history"** command to show a list of all the recently used commands, or the up/down arrows to loop through them.
 
 ```sh
 syner@synerpc:~$ history
@@ -234,4 +237,3 @@ syner@synerpc:~$ history
 - [Basic UNIX commands](http://mally.stanford.edu/~sr/computing/basic-unix.html)
 - [Important Linux Commands](https://www-uxsup.csx.cam.ac.uk/pub/doc/suse/suse9.0/userguide-9.0/ch24s04.html)
 - [Basic Linux Commands](http://www.comptechdoc.org/os/linux/usersguide/linux_ugbasics.html)
-
