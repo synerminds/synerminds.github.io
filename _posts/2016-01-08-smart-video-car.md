@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Smart Video Robot Car Kit for Raspberry Pi
+title:  Sunfounder Smart Video Robot Car Kit for Raspberry Pi
 meta:   August 01, 2016
 author: Juan Pablo Soto
 ---
@@ -10,9 +10,12 @@ the raspberry pi works.
 
 ### Batteries
 
-When we first start reading the manual to get an idea of how to start assembling the Car, we soon realized that the batteries which are actually needed to give the Car the energy it requires to be started were not included in the package at all.
+When we first started reading the manual to get an idea of how to start assembling the Car, we soon realized that the batteries required to power the Car were not included in the package.
 
-Please be aware of this before purchasing the kit, so make sure you do buy the batteries (x2) required for this kit. It will save you a lot of time and headaches. 
+Please be aware of this before purchasing the kit, so make sure you do buy the batteries which are (x2) 18650 of 3.7v rechargeable Li-on according to the manual. It will save you a lot of time and headaches.
+
+There is another thing worth mentioning, since we did not have the required batteries, we had to come up with a workaround to solve the power issue. So, we did a little research on the voltage regulator included in the power board and found out
+that we were actually able to use another kind of battery to power it. The voltage regulator is a: XL1509 which is a 2A 150KHz 40V Buck DC to DC Converter, so based on that we were able to power the car with a 4 cells 14.8v 1000mAh Li-Po battery (under our own risk) without any problems.
 
 ### Copper Standoffs
 
