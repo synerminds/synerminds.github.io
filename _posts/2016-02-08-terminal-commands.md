@@ -11,7 +11,7 @@ Traditional Unix environments are based into CLI (command line interface), where
 
 Having said that, the purpose of this post is to give you an introduction to the CLI (command line interface).
 
-## Basic Concepts related to the CLI:
+### Basic Concepts related to the CLI:
 
 - **Console:** This is the system as a whole. This is both the command line as well as the output from previous commands.
 - **Command Line:** This is the actual line in a console where you type your command.
@@ -19,8 +19,8 @@ Having said that, the purpose of this post is to give you an introduction to the
 - **Terminal:** This is the actual interface to the console. The program we use to interact with the console is actually a **“terminal emulator”**, providing us the experience of typing into an old school terminal from the convenience of our modern graphical operating system.
 - **Command:** A command is a specific order from a user to the computer's operating systems or to an application to perform an action. Operating systems that do not have a graphical user interface (GUI) offer a simple command line interface in which you type the command on a designated line in a display panel. In operating systems with graphical user interface, you implicitly enter commands by selecting objects, word selections or simply clicking with the mouse button on them.
 
-## How to start/access the terminal:
-### Linux:
+### How to start/access the terminal in different Operating Systems:
+
 - **Unity** 
     - Dash -> Search for Terminal
     - Dash -> More Apps -> 'See More Results' -> Terminal
@@ -45,20 +45,18 @@ Having said that, the purpose of this post is to give you an introduction to the
 
 **ls**
 
-The command **“ls”** stands for (List Directory Contents), List the contents of the folder, be it file or folder, from which it runs. If you run **"ls"** without any additional parameters, the program will list the contents of the current directory in short form.
+The command `ls` stands for (List Directory Contents), List the contents of the folder, be it file or folder, from which it runs. If you run `ls` without any additional parameters, the program will list the contents of the current directory in short form.
 
-- **ls**
+#### Examples:
 
 ```sh
+# Basic usage
 syner@synerpc:~$ ls
 Desktop    Downloads         Music     Public     Videos
 Documents  examples.desktop  Pictures  Templates
-syner@synerpc:~$ 
-```
-
-- Detailed list: **ls -l** 
-
-```sh
+syner@synerpc:~$
+ 
+# Detailed listing of contents
 syner@synerpc:~$ ls -l
 total 44
 drwxr-xr-x 3 syner syner 4096 ago  2 17:54 Desktop
@@ -71,11 +69,8 @@ drwxr-xr-x 2 syner syner 4096 ago  2 17:47 Public
 drwxr-xr-x 2 syner syner 4096 ago  2 17:47 Templates
 drwxr-xr-x 2 syner syner 4096 ago  2 17:47 Videos
 syner@synerpc:~$ 
-```	
-
-- Displays hidden files: **ls -a**
-
-```sh
+ 
+# Listing hidden contents
 syner@synerpc:~$ ls -a
 .              Downloads         Public
 ..             examples.desktop  .sudo_as_admin_successful
@@ -87,7 +82,7 @@ syner@synerpc:~$ ls -a
 Desktop        Pictures
 Documents      .profile
 syner@synerpc:~$ 
-```	
+```
 
 **pwd**
 
@@ -96,9 +91,7 @@ In the console, you are always working in a directory, or folder, on your comput
 ```sh
 syner@synerpc:~$ pwd
 /home/syner
-```
 
-```sh
 syner@synerpc:~/Desktop$ pwd
 /home/syner/Desktop
 ```
