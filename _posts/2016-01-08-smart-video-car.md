@@ -15,6 +15,7 @@ When we first started reading the manual to get an idea of how to start assembli
 Please be aware of this before purchasing the kit, so make sure you do buy the batteries which are (x2) 18650 of 3.7v rechargeable Li-on according to the manual. It will save you a lot of time and headaches.
 
 There is another thing worth mentioning, since we did not have the required batteries, we had to come up with a workaround to solve the power issue. So, we did a little research on the voltage regulator included in the power board and found out that we were actually able to use another kind of battery to power it. The voltage regulator is a: **XL1509** which is a **2A 150KHz 40V Buck DC to DC Converter**, so based on that we were able to power the car with a 4 cells **14.8v 1000mAh** Li-Po battery (under our own risk) without any problems.
+
 ### Copper Standoffs
 
 Please be extremely careful when placing the M2.5*8 Copper Standoffs on the acrylic (Upper) plate. This is because the plate can be broken easily if too much force is applied. 
@@ -23,7 +24,9 @@ Make sure you take your time when assembling this part.
 
 ### Copper Standoffs Screws
 
-Unfortunately, we got the wrong 4 M3*8 ![screws](https://github.com/synerminds/synerminds.github.io/blob/bootstrap_styling/assets/wrong_screws.png) when it was time to assemble this section. We had to come up with a workaround for this section by using a different set of screws. Please make sure to try the screws first before assembling the Copper Standoffs, this can save you a lot of time.
+<img src="{{ site.baseurl }}/assets/wrong_screws.png" alt="circuit">
+
+Unfortunately, we got the wrong 4 M3*8 when it was time to assemble this section. We had to come up with a workaround for this section by using a different set of screws. Please make sure to try the screws first before assembling the Copper Standoffs, this can save you a lot of time.
 
 ### Client and Server scripts
 
