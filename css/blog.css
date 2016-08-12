@@ -13,6 +13,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
+  text-align: left;
   margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -23,6 +24,10 @@ h2, .h2,
 h3, .h3 {
   margin-top: 40px;
   margin-bottom: 30px;
+}
+
+div, .div {
+  text-align: justify;
 }
 
 
