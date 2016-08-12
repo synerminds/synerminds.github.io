@@ -13,10 +13,21 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
+  text-align: left;
   margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #333;
+}
+
+h2, .h2,
+h3, .h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+div, .div {
+  text-align: justify;
 }
 
 
@@ -163,4 +174,20 @@ h6, .h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.post-list {
+  margin-left: 40px;
+}
+
+#push, #footer {
+  height: 200px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: 100%;
+  /*margin-bottom should have same values as #push, #footer height*/
+  height: auto !important;
+  margin: 0 auto -200px;
 }

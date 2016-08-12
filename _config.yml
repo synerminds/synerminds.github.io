@@ -12,7 +12,7 @@ description: >
   This is the place where we share with the community our lessons learned
   while working on products or prototypes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://synerminds.com" # the base hostname & protocol for your site
+url: "http://blog.synerminds.com" # the base hostname & protocol for your site
 twitter_username:
 github_username:  synerminds
 repository: https://github.com/synerminds/synerminds.github.io
