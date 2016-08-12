@@ -21,32 +21,25 @@ Having said that, the purpose of this post is to give you an introduction to the
 
 ### How to start/access the terminal in different Operating Systems:
 
->**Unity** 
-
-> - Dash -> Search for Terminal
-> - Dash -> More Apps -> 'See More Results' -> Terminal
-> - Dash -> More Apps -> Accessories -> Terminal
-> - Keyboard Shortcut: Ctrl + Alt + T
-
->**GNOME**
->- Applications menu -> Accessories -> Terminal.
->- Keyboard Shortcut: Ctrl + Alt + T
-
->**Xfce (Xubuntu)**
->- Applications menu -> System -> Terminal.
->- Keyboard Shortcut: Super + T
->- Keyboard Shortcut: Ctrl + Alt + T
-
->**KDE (Kubuntu)**
->- KMenu -> System -> Terminal Program (Konsole).
-
->**LXDE (Lubuntu)**
->- Menu -> Accessories -> LXTerminal.
->- Keyboard Shortcut: Ctrl + Alt + T
-
->**OSx:**
->- ⌘(Command) + Space, type “Terminal” and then hit “Enter”
-> 
+- Unity
+    - Dash -> Search for Terminal
+    - Dash -> More Apps -> 'See More Results' -> Terminal
+    - Dash -> More Apps -> Accessories -> Terminal
+    - Keyboard Shortcut: Ctrl + Alt + T
+- GNOME
+    - Applications menu -> Accessories -> Terminal.
+    - Keyboard Shortcut: Ctrl + Alt + T
+- Xfce (Xubuntu)
+    - Applications menu -> System -> Terminal.
+    - Keyboard Shortcut: Super + T
+    - Keyboard Shortcut: Ctrl + Alt + T
+- KDE (Kubuntu)
+    - KMenu -> System -> Terminal Program (Konsole).
+- LXDE (Lubuntu)
+    - Menu -> Accessories -> LXTerminal.
+    - Keyboard Shortcut: Ctrl + Alt + T
+- OSx:
+    - ⌘(Command) + Space, type “Terminal” and then hit “Enter”
    
 ### Let's get started:
 
@@ -243,6 +236,7 @@ syner@synerpc:~# chmod 711 syner.py
 You can use the `history` command to show a list of all the recently used commands, or the up/down arrows to loop through them.
 
 ```sh
+# Listing all the commands used
 syner@synerpc:~$ history
     1  ls
     2  cd Desktop/
